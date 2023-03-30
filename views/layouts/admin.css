@@ -1,0 +1,95 @@
+
+.header{
+    display: flex;
+    
+}
+.header-left{
+    margin: 0;
+    margin-left: 15px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-decoration: none;
+
+}
+.add-reader{
+    text-decoration: none;
+    font-size: 16px;
+}
+.delete-reader{
+    text-decoration: none;
+    font-size: 16px;
+}
+.main{
+    text-decoration: none;
+    font-size: 16px;
+}
+.readers{
+    text-decoration: none;
+    font-size: 16px;
+}
+.books{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.buttons{
+    margin-left: auto;
+    margin-top: 10px;
+    display: flex;
+
+
+    gap: 10px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    width: 75px;
+    height: 40px;
+    border: 2px;
+    border-color: black;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+
+}
+.registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border: 2px;
+    border-color: black;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+.registration:hover{
+    background-color: grey;
+}
+.login:hover{
+    background-color: grey;
+}
+.line{
+    margin-top: 15px;
+    height: 1px;
+    width: 1890px;
+    background-color: black;
+}
+.down-line{
+
+    margin-top: 778px;
+    width: 1900px;
+    height: 50px;
+    background-color: black;
+}

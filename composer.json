@@ -1,0 +1,25 @@
+{
+    "name": "r3r3d/practice_pnss",
+    "description": "practice",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "r3r3d"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0",
+        "illuminate/database": "10.x-dev",
+        "illuminate/events": "10.x-dev",
+        "nikic/fast-route": "^2.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+
+}
