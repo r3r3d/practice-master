@@ -117,6 +117,12 @@
             <input class="field2" type="text" name="login">
             <p>Пароль</p>
             <input class="field3" type="password" name="password">
+            <select name="id_role" id="id_role">
+                <option value="1">Администратор</option>
+                <option value="2">Читатель</option>
+
+
+            </select>
             <button class="submit">Зарегистрироваться</button>
         </div>
 

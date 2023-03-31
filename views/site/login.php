@@ -107,7 +107,6 @@ if (!app()->auth::check()):
     ?>
     <form method="post">
         </div>
-        <div class="line"></div>
         <div class="main">
             <h1>Вход в аккаунт</h1>
             <div class="login-field">

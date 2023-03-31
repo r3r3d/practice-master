@@ -36,7 +36,7 @@ class Site
         }
         //Если удалось аутентифицировать пользователя, то редирект
         if (Auth::attempt($request->all())) {
-            app()->route->redirect('/main');
+            app()->route->redirect('/hello');
         }
         //Если аутентификация не удалась, то сообщение об ошибке
         return new View('site.login', ['message' => 'Неправильные логин или пароль']);
@@ -55,6 +55,11 @@ class Site
     {
         Auth::logout();
         app()->route->redirect('/hello');
+    }
+
+    public function admin(): string
+    {
+        return new View('site.admin', ['']);
     }
 
 
